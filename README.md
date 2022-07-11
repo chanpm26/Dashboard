@@ -1,1 +1,1 @@
-# Dashboard
+All sidebar icons from materialdesignicons.com

@@ -1,0 +1,165 @@
+body {
+   margin: 0px;
+   font-family: "Dongle", 'Times New Roman';
+}
+
+#container {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
+    height: 100vh;
+    width: 100vw;
+}
+
+#header {
+    background-color: blue;
+}
+
+#sidebar {
+    grid-row: 1/4;
+    background-color: rgba(235, 84, 202, 0.699);
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 32px;
+    padding-bottom: 5px;
+    color: white;
+    padding-left: 25px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+.group > img {
+    height: 29px;
+    width: auto;
+}
+
+.group:nth-child(8) {
+    padding-top: 60px;
+}
+
+#sidebar-dashboard {
+    padding-bottom: 0px;
+    padding-left: 20px;
+    font-size: 60px;
+    margin-bottom: -40px;
+}
+
+#sidebar-dashboard > img {
+    height: auto;
+    margin-top: -5px;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding-left: 30px;
+    padding-right: 20px;
+    gap: 60px;
+    background-color: rgba(240, 235, 235, 0.377);
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background-color: white;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px rgb(128, 128, 128);
+}
+
+.title {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 8px 8px 0px 8px;
+    padding-left: 7px;
+}
+
+.body {
+    flex-grow: 1;
+    margin: 0px 15px;
+    font-size: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}
+
+.card-icons {
+    display: flex;
+    gap: 7px;
+    width: 100%;
+    background-color: rgba(235, 84, 202, 0.699);
+    justify-content: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-icons > img:nth-child(3) {
+    padding-right: 15px;
+}
+
+
+#main-side {
+    margin-left: 20px;
+}
+
+.section-header{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 10px;
+}
+
+#announcements, #profiles {
+    border: lightgrey 2px solid;
+    padding: 20px 10px 10px 10px;
+    margin-right: 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 50%;
+    background-color: white;
+    overflow: scroll;
+}
+
+.announcement {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(95, 60, 60);
+    overflow: hidden;
+}
+
+.announcement > .title {
+    line-height: 20px;
+}
+
+.profile {
+    padding-bottom: 10px;
+}
+
+.profile > p{
+    margin: 0px;
+    margin-top: -10px;
+    font-size: 25px;
+}
+
+#profiles {
+    height: 35% !important;
+}
+
+
+#race-announcements, #top-runners {
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+}
