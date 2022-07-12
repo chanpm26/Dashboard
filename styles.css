@@ -54,7 +54,7 @@ input[type="search"] {
     border-radius: 15px;
     background-color:rgba(240, 235, 235, 0.377);
     font-size: 16px;
-    padding-left: 10px;
+    padding-left: 1 0px;
 }
 
 #header-two {
@@ -62,12 +62,12 @@ input[type="search"] {
     font-size:57px;
 }
 
-img[src="/icons8-running-rabbit-100.png"]{
-    width: 60px;
-    height: 60px;
+img[src="icons8-running-rabbit-100.png"]{
+    width: 70px;
+    height: 70px;
 }
 
-img[src="/bell-ring.png"]  {
+img[src="bell-ring.png"]  {
     width: 40px;
 }
 
