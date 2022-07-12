@@ -60,9 +60,13 @@ input[type="search"] {
     font-size:57px;
 }
 
-img[src="/icons8-running-rabbit-100.png"], img[src="/bell-ring.png"] {
-    width: 50px;
-    height: 50px;
+img[src="/icons8-running-rabbit-100.png"]{
+    width: 60px;
+    height: 60px;
+}
+
+img[src="/bell-ring.png"]  {
+    width: 40px;
 }
 
 #header-two > div:first-child {
