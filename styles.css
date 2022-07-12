@@ -95,6 +95,11 @@ button {
     border-color:rgba(235, 84, 202, 0.699)
 }
 
+button:hover {
+    background-color: rgba(0, 138, 34, 0.863);
+    border-color: rgba(0, 138, 34, 0.863);
+}
+
 #sidebar {
     grid-row: 1/4;
     background-color: rgba(235, 84, 202, 0.699);
