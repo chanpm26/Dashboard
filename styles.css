@@ -53,6 +53,8 @@ input[type="search"] {
     height: 4vh;
     border-radius: 15px;
     background-color:rgba(240, 235, 235, 0.377);
+    font-size: 16px;
+    padding-left: 10px;
 }
 
 #header-two {
